@@ -14,17 +14,27 @@
 	z-index: 999;
 }
 
-.projects-container {
+.projects-container-1 {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
+	width: 1440px;
 	margin: 0;
 	padding-top: 120px;
 }
 
+.projects-container-2 {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+}
+
+
 @media (max-width: 600px) {
-	.projects-container {
+	.projects-container-1, .projects-container-2{
 		padding-top: 60px;
+		width: 500px;
 	}
 
 	.projects-project {

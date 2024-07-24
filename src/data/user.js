@@ -1,6 +1,7 @@
 import tailwindLogo from "../images//projects/tailwind.png";
 import cssLogo from "../images//projects/css.png";
 import sassLogo from "../images//projects/sass.png";
+import reactLogo from "../images//projects/react.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -14,8 +15,8 @@ const INFO = {
 	},
 
 	socials: {
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
+		github: "https://github.com/haydeemvm",
+		linkedin: "https://linkedin.com/in/haydeemvm",
 	},
 
 	homepage: {
@@ -43,37 +44,19 @@ const INFO = {
 		{
 			title: "Proyecto 2: phimaro",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Desarrollé un sitio web utilizando Tailwind CSS, implementando un diseño moderno y responsivo que mejora la experiencia del usuario.",
 			logo: tailwindLogo,
 			linkText: "Ver proyecto",
 			link: "https://haydeemvm.github.io/TAILWIND-WEBSITE/",
 		},
 
 		{
-			title: "Project 3: Blog",
+			title: "Project 3: iteki",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Utilicé utilidades de BootStrap para crear componentes personalizados, como secciones de productos, carrito de compras y formularios de pago, asegurando un estilo coherente y atractivo en todas las pantallas.",
+			logo: reactLogo,
 			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://devs-iteki.github.io/frontend-ecommerce/",
 		},
 	],
 };

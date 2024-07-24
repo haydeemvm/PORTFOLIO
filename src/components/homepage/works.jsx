@@ -14,29 +14,29 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						<div className="work">
-							<img
-								src="./facebook.png"
-								alt="facebook"
-								className="work-image"
-							/>
-							<div className="work-title">Facebook</div>
+
+							<div className="work-title"> Pasantía FrontEnd Developer</div>
 							<div className="work-subtitle">
-								Software Engineer
+						Conexión El Salvador | Davivienda
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">Mayo 2024 - Presente</div>
 						</div>
 
 						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
+			
+							<div className="work-title">Coordinadora del Proyecto PrepSchool</div>
 							<div className="work-subtitle">
-								Software Engineer
+								Programa Empresarial ¡Supérate!
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2023 - Presente</div>
+						</div>
+						<div className="work">
+			
+							<div className="work-title">Asistente Administrativa</div>
+							<div className="work-subtitle">
+								Taller de Bellas Artes Cúcara Mácara
+							</div>
+							<div className="work-duration">2018 - 2023</div>
 						</div>
 					</div>
 				}
