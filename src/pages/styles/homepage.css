@@ -78,10 +78,6 @@
 	padding-top: 40px;
 }
 
-.homepage-works {
-	flex-basis: 600px;
-	padding-top: 30px;
-}
 
 @media (max-width: 1024px) {
 	.homepage-first-area {
@@ -128,9 +124,4 @@
 		flex-basis: auto;
 	}
 
-	.homepage-works {
-		flex-basis: auto;
-		margin-left: -25px;
-		margin-right: -25px;
-	}
 }

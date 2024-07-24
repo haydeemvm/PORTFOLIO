@@ -1,54 +1,56 @@
+import tailwindLogo from "../images//projects/tailwind.png";
+import cssLogo from "../images//projects/css.png";
+import sassLogo from "../images//projects/sass.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
-		logo: "../logo.png",
+		title: "Haydeé Velásquez | Portafolio",
+		name: "Haydeé Velásquez",
+		email: "haydeevelasquezm@gmail.com",
+		logo: "../logo.svg",
 	},
 
 	socials: {
-		twitter: "https://twitter.com/",
 		github: "https://github.com/",
 		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
-		stackoverflow: "https://stackoverflow.com/",
-		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "FrontEnd Developer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Apasionada y comprometida a desarrollar productos digitales intuitivos y funcionales que conecten significativamente con los usuarios y solventen sus necesidades. Me enfoco en desarrollar aplicaciones y sitios web accesibles, confiables y amigables que garanticen su máxima eficiencia y rendimiento, priorizando siempre la experiencia del usuario.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "Contribuyo al futuro tecnológico desde y para El Salvador",
 		description:
-			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
+			"Profesional dedicada a desarrollar soluciones digitales innovadoras que responden a las necesidades presentes de las empresas y la sociedad en El Salvador y líder en proyectos de educación que preparan a la próxima generación de talentos tecnológicos del país. Mi compromiso es contribuir al crecimiento del ecosistema digital, facilitando el acceso a la tecnología y promoviendo un futuro más inclusivo y sostenible.",
 	},
-
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Proyecto 1: Gaia",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Diseñé una tienda en línea responsive utilizando Figma, creando pantallas atractivas y funcionales. Implementé HTML y CSS para la maquetación y estilización.",
+			logo: cssLogo,
+			linkText: "Ver proyecto",
+			link: "https://haydeemvm.github.io/WEB-SITE-HTML-CSS/",
 		},
 
 		{
-			title: "Project 2",
+			title: "Proyecto 2: phimaro",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+			logo: tailwindLogo,
+			linkText: "Ver proyecto",
+			link: "https://haydeemvm.github.io/TAILWIND-WEBSITE/",
 		},
 
 		{
-			title: "Project 3",
+			title: "Project 3: Blog",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
